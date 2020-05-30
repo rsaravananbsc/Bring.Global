@@ -8,7 +8,8 @@ Dependency: TestNG, ApachePOI.
 Download Project: git clone https://github.com/rsaravananbsc/Bring.Global.git
 
 Test Execution:
-	1. testng.xml and run as TestNG Suite. (Chrome Browser)
+	1. Open the Testcase on following path and Start Execution (Execution Browser: Chrome)
+		/src/test/java/flight/Booking/bookingToMalaga.java
 
 Test Exection Environment :
 	IDE Tool: Eclipse (Any version)
@@ -31,9 +32,13 @@ Note:
 		field: Update site for release: https://dl.bintray.com/testng-team/testng-eclipse-release/. 
 		Make sure the check box next to URL is checked and click Next. 
 		Eclipse will then guide you through the process.
+		
+	4. Intentionally, Reduced Execution Speed to see the Test Execution
 
 Observation on Execution:
-1 . (Required Discussion with Development Team to Update/Enhancement about Object Layouts is Different on Manural Execution and    Automation Execution. If Required i will explain on Meeting)
+1 . (Required Discussion with Development Team to Update/Enhancement about Object Layouts is Different on Manual Execution and Automation Execution. If Required i will explain on Meeting)
 
 2. If you faceing "StaleExelemnt Exception" Please Update the project by using the following path 
 Eclispe RightClick on Project >>>> Maven >>>> Update Project. then Restart the Execution.
+
+3. If you facing Execution Failed, Few of Functional Objects Layout is Different than Manual Exeuction 
