@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-30T21:23:28 WEST" name="Default suite" finished-at="2020-05-30T21:26:34 WEST" duration-ms="185925">
+    <groups>
+      <group name="smoke">
+        <method signature="bookingToMalaga.test_FlightBookings()[pri:1, instance:flight.Booking.bookingToMalaga@4facf68f]" name="test_FlightBookings" class="flight.Booking.bookingToMalaga"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2020-05-30T21:23:28 WEST" name="Default test" finished-at="2020-05-30T21:26:34 WEST" duration-ms="185925">
+      <class name="flight.Booking.bookingToMalaga">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:flight.Booking.bookingToMalaga@4facf68f]" started-at="2020-05-30T21:23:28 WEST" name="openApplication" finished-at="2020-05-30T21:23:34 WEST" duration-ms="5332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="test_FlightBookings()[pri:1, instance:flight.Booking.bookingToMalaga@4facf68f]" started-at="2020-05-30T21:23:34 WEST" name="test_FlightBookings" finished-at="2020-05-30T21:26:34 WEST" duration-ms="180462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_FlightBookings -->
+        <test-method is-config="true" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:flight.Booking.bookingToMalaga@4facf68f]" started-at="2020-05-30T21:26:34 WEST" name="closeApplication" finished-at="2020-05-30T21:26:34 WEST" duration-ms="95" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_FlightBookings status=SUCCESS method=bookingToMalaga.test_FlightBookings()[pri:1, instance:flight.Booking.bookingToMalaga@4facf68f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- flight.Booking.bookingToMalaga -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
